@@ -1,11 +1,7 @@
-# Интерактивная карта Украины в формате SVG.
+# Інтерактивна карта Украини в форматі SVG.
 
-v 1.0
+v 1.1
+Адаптація для Open Cart 3
 
-<a href="http://benya.com.ua/github/jqvmap-ukraine/" title="DEMO">DEMO</a>
 
-Карта доступна на 2-х языках. Русский и Украинский.
-
-По умолчанию используется Украинский язык. 
-
-Для создания карты использовался плагин <a href="https://github.com/manifestinteractive/jqvmap">JQVMap</a>.
+Для створення карты використовувася плагін <a href="https://github.com/manifestinteractive/jqvmap">JQVMap</a>.
