@@ -1,11 +1,9 @@
 /*
 
-jqvmap-ukraine-v1,
-11.2015,
-Alexander Bendyuzhko,
-bendyuzhko@gmail.com,
-https://github.com/benya/jqvmap-ukraine
-
+jqvmap-ukraine-v1, 11.2015, Alexander Bendyuzhko, bendyuzhko@gmail.com, https://github.com/benya/jqvmap-ukraine
+*update*
+Alexander Bendyuzhko,	Adaptation for Open Cart 3
+bendyuzhko@gmail.com,	jqvmap-ukraine-v1.1 10.2020, Motelnytskyi Petro, motelnytskyi@gmail.com, motelnytskyi.in.ua
 */
 
 jQuery.fn.vectorMap(
