@@ -14,30 +14,28 @@ jqvmap-ukraine-v1.1 10.2020, Motelnytskyi Petro, motelnytskyi@gmail.com, motelny
 
 	<meta charset="UTF-8">
 
-	<title>Карта Украины</title>
+	<title>Карта України</title>
 
 	<link href="./css/jqvmap.css" rel="stylesheet">
-
-	<script src="https://yastatic.net/jquery/2.1.4/jquery.min.js"></script>
-	<script src="./js/jqvmap.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="./js/jquery.vmap.js"></script>
 	<script src="./js/ukraine.js"></script>
 
 	<script>
 		jQuery(document).ready(function() {
 
-			jQuery('#ua').vectorMap(
+			jQuery('#vmap-ukraine').vectorMap(
 
 			{
-
-				map: 'ukraine',
-				backgroundColor: 'white',
-				borderColor: '#FF9900',
-				borderOpacity: 0.60,
-				borderWidth: 2,
-				color: '#1076C8',
-				hoverColor: '#0A4C82',
-				selectedColor: '#FF9900',
-
+				backgroundColor: '#FFFFFF',
+				borderColor: '#FFFFFF',
+				color: '#9FD5F1',
+				hoverOpacity: 0.7,
+				selectedColor: '#666666',
+				enableZoom: true,
+				showTooltip: true,
+				values: data,
+				normalizeFunction: 'polynomial',
 			}
 
 			);
@@ -50,7 +48,7 @@ jqvmap-ukraine-v1.1 10.2020, Motelnytskyi Petro, motelnytskyi@gmail.com, motelny
 
 <body>
 
-	<div id="ua"></div>
+	<div id="vmap-ukraine"></div>
 
 </body>
 
